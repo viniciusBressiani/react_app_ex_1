@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import {Navbar, Brand, Cta, Feature, Article} from './components';
 
 const App = () => {
   return (
     <div>
-      <h1>My App</h1>
+      <Navbar />
+      <Brand />
+      <Cta />
+      <Feature />
+      <Article />
     </div>
   )
 }
