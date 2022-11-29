@@ -4,7 +4,7 @@ import Feature from './../../components/feature/Feature';
 
 const WhatESCM = () => {
   return (
-    <div className="escm__whatescm section__margin" id='whatescm'>
+    <div className="escm__whatescm section__margin" id='wescm'>
       <div className="escm__whatescm-feature">
         <Feature 
           title='What is GPT-3'
