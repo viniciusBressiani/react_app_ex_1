@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width:990px) {
+    .escm__blog{
+        padding: 0;
+    }
     .escm__blog-container{
         flex-direction: column;
     }
@@ -55,7 +58,7 @@
 
 @media screen and (max-width: 650px) {
     .escm__blog {
-        margin: 0;
+        margin: 1rem;
     }
 
     .escm__blog-heading h2 {

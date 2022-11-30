@@ -1,0 +1,140 @@
+.escm__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer);
+
+    color: white;
+}
+
+.escm__footer-heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.escm__footer-heading h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.escm__footer-btn {
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.escm__footer-btn p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.escm__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.escm__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.escm__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.escm__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+
+    margin-bottom: 1rem;
+}
+
+.escm__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14xp;
+    color: #FFFFFF;
+}
+
+.escm__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.escm__footer-links_div h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16xp;
+    color: #FFFFFF;
+
+    margin-bottom: 1rem;
+}
+.escm__footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14xp;
+    color: #FFFFFF;
+
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.escm__footer-copyright {
+   margin-top: 2rem;
+   text-align: center;
+   width: 100%; 
+   
+}
+
+.escm__footer-copyright  p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14xp;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+    .escm__footer-heading h2 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    
+
+}
+@media screen and (max-width: 550px) {
+    .escm__footer-heading h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    
+    .escm__footer-links {
+        margin: 1rem 0;
+    }
+    .escm__footer-btn p {
+        font-size: 14xp;
+        line-height: 20xp;
+    }
+
+
+}
