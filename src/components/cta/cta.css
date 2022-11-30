@@ -68,5 +68,10 @@
     .escm__cta-button {
         margin-top: 1rem;
     }
-    
+}
+
+@media screen and (max-width: 550px) {
+    .escm__cta {
+        margin: 2rem;
+    }
 }
